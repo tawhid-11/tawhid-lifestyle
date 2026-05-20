@@ -168,7 +168,7 @@ export class AuthModalComponent {
       this.password = '';
     } else {
       this.shake.set(true);
-      this.errorMessage.set('Invalid password! Please try again. (Default: 22103205)');
+      this.errorMessage.set('Invalid password! Please try again. ');
       setTimeout(() => this.shake.set(false), 500);
     }
   }

@@ -1,4 +1,5 @@
 {
+  "outputDirectory": "dist/tawhid-life-style/browser",
   "cleanUrls": true,
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }

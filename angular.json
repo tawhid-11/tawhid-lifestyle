@@ -16,7 +16,7 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
-            "outputPath": "dist/tawhid-lifestyle",
+            "outputPath": "dist/tawhid-life-style",
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
             "assets": [
