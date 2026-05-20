@@ -242,6 +242,6 @@ throw new Error('Method not implemented.');
       hour12: true
     };
     
-    this.liveTime.set(now.toLocaleDateString('bn-BD', options));
+    this.liveTime.set(now.toLocaleDateString('EN-BD', options));
   }
 }

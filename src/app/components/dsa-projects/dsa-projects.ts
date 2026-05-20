@@ -179,7 +179,7 @@ import { LifestyleService, DsaProblem, ProjectTask } from '../../services/lifest
           <span class="badge cat-be">Backend</span>
           <span class="badge cat-fe">Frontend</span>
           <span class="cat-stat">
-            {{ completedTasksCount() }}/{{ totalTasksCount() }} টাস্ক
+            {{ completedTasksCount() }}/{{ totalTasksCount() }} Task
           </span>
         </div>
 

@@ -92,7 +92,7 @@ import { LifestyleService } from '../../services/lifestyle.service';
           <label class="custom-checkbox">
             <input type="checkbox" [checked]="track().habits.problemSolving" (change)="lifestyleService.toggleHabit('problemSolving')">
             <span class="checkmark"></span>
-            <span class="checkbox-label">🧠 1 problem-solving session (DSA/Logic)</span>
+            <span class="checkbox-label">🧠 1 problem-solving session (Logic)</span>
           </label>
 
           <label class="custom-checkbox">

@@ -424,8 +424,8 @@ export class ScheduleViewComponent implements OnInit {
       morningBlock: [
         { en: '🕌 Begin with Fajr and Bismillah. Set strong intentions for the day.', bn: '🕌 ফজর ও বিসমিল্লাহ দিয়ে শুরু করা। দিনের কাজের জন্য মজবুত নিয়ত করা।' },
         { en: '💻 1 Hour Core Practice: Build a small feature strictly without looking at tutorials.', bn: '💻 ১ ঘণ্টা কোর প্র্যাকটিস: টিউটোরিয়াল না দেখে সম্পূর্ণ নিজে একটি ছোট ফিচার বানানো।' },
-        { en: '🛠️ 1 Hour Project: Work on the Doctor Appointment System (Focus on API endpoints).', bn: '🛠️ ১ ঘণ্টা প্রজেক্ট: ডক্টর অ্যাপয়েন্টমেন্ট সিস্টেমের কাজ করা (API এন্ডপয়েন্টে ফোকাস)।' },
-        { en: '🧠 1 Hour DSA: Solve 2 LeetCode Medium problems (Focus on Array & HashMaps).', bn: '🧠 ১ ঘণ্টা DSA: ২টি লিটকোড মিডিয়াম প্রবলেম সলভ করা (Array ও HashMap ফোকাস)।' }
+        { en: '🛠️ 1 Hour Project: Work on any project(Focus on API endpoints).', bn: '🛠️ ১ ঘণ্টা প্রজেক্ট: অ্যাপয়েন্টমেন্ট সিস্টেমের কাজ করা (API এন্ডপয়েন্টে ফোকাস)।' },
+        { en: '🧠 1 Hour Coding: Solve 2 LeetCode Medium problems (Focus on Array & HashMaps).', bn: '🧠 ১ ঘণ্টা Coding: ২টি লিটকোড মিডিয়াম প্রবলেম সলভ করা (Array ও HashMap ফোকাস)।' }
       ],
       officeFocus: [
         { en: '🏢 Apply newly learned design patterns to office codebase actively.', bn: '🏢 নতুন শেখা ডিজাইন প্যাটার্নগুলো অফিসের কোডবেসে অ্যাপ্লাই করা।' },
@@ -443,7 +443,7 @@ export class ScheduleViewComponent implements OnInit {
       officeHours: { en: '1:00 PM – 11:30 PM (Onsite)', bn: '১:০০ দুপুর – ১১:৩০ রাত (অফিস)' },
       morningBlock: [
         { en: '🕌 Fajr prayer followed by a 15-minute stretching routine.', bn: '🕌 ফজরের নামাজ এবং এরপর ১৫ মিনিট বডি স্ট্রেচিং।' },
-        { en: '🧠 DSA Deep Dive: Practice Two Pointers and Sliding Window techniques.', bn: '🧠 DSA ডিপ ডাইভ: Two Pointers এবং Sliding Window টেকনিক প্র্যাকটিস করা।' },
+        { en: '🧠 Coding Deep Dive: Practice Two Pointers and Sliding Window techniques.', bn: '🧠 Coding ডিপ ডাইভ: Two Pointers এবং Sliding Window টেকনিক প্র্যাকটিস করা।' },
         { en: '⚙️ Architecture Study: Read an article on backend scaling or database indexing.', bn: '⚙️ আর্কিটেকচার স্টাডি: ব্যাকএন্ড স্কেলিং বা ডেটাবেস ইনডেক্সিং নিয়ে আর্টিকেল পড়া।' },
         { en: '🔌 Backend Revision: Refactor yesterday’s API code for better performance.', bn: '🔌 ব্যাকএন্ড রিভিশন: পারফরম্যান্স বাড়াতে গতদিনের API কোড রিফ্যাক্টর করা।' }
       ],
@@ -519,11 +519,11 @@ export class ScheduleViewComponent implements OnInit {
       officeHours: { en: '🚫 Weekly Off-Day', bn: '🚫 সাপ্তাহিক ছুটি' },
       morningBlock: [
         { en: '🕌 Fajr prayer, Morning Walk, and highly caffeinated deep work entry.', bn: '🕌 ফজর, প্রাতঃভ্রমণ এবং এরপর হাই-ফোকাস ডিপ ওয়ার্ক সেশনে প্রবেশ।' },
-        { en: '🧠 3-Hour DSA Marathon: Solve minimum 5 problems completely unassisted.', bn: '🧠 ৩-ঘণ্টা DSA ম্যারাথন: কারো সাহায্য ছাড়াই অন্তত ৫টি প্রবলেম সলভ করা।' },
+        { en: '🧠 3-Hour Programming Marathon: Solve minimum 5 problems completely unassisted.', bn: '🧠 ৩-ঘণ্টা DSA ম্যারাথন: কারো সাহায্য ছাড়াই অন্তত ৫টি প্রবলেম সলভ করা।' },
         { en: '💻 2-Hour Core Development: Finish the hardest pending feature of the portfolio.', bn: '💻 ২-ঘণ্টা কোর ডেভেলপমেন্ট: পোর্টফোলিওর সবচেয়ে কঠিন ফিচারটি তৈরি করে ফেলা।' }
       ],
       officeFocus: [
-        { en: '🛠️ Doctor Appointment System: Push the final build to production server.', bn: '🛠️ ডক্টর অ্যাপয়েন্টমেন্ট সিস্টেম: ফাইনাল বিল্ড প্রোডাকশন সার্ভারে ডিপ্লয় করা।' }
+        { en: '🛠️ Any working Projects: Push the final build to production server.', bn: '🛠️  ফাইনাল বিল্ড প্রোডাকশন সার্ভারে ডিপ্লয় করা।' }
       ],
       nightBlock: [
         { en: '📝 Write the absolute comprehensive weekly review. Set brutal goals for next week.', bn: '📝 সম্পূর্ণ সপ্তাহের বিস্তারিত রিভিউ লেখা। আগামী সপ্তাহের জন্য কঠিন ও ক্লিয়ার লক্ষ্য সেট করা।' },
