@@ -280,7 +280,7 @@ export class LifestyleService {
 
   // Authentication Logic
   login(password: string): boolean {
-    if (password === 'tawhid123') {
+    if (password === 'tawhid123' || password === '22103205') {
       this.isLoggedIn.set(true);
       this.showLoginModal.set(false);
       return true;
